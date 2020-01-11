@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="RPS.css">
+  <link href="https://fonts.googleapis.com/css?family=Barlow:600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/086a0a5c09.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+
+  <header>
+    <h1>Rock Paper Scissors <i class="fas fa-puzzle-piece"></i> </h1>
+  </header>
+
+  <div class="score-board">
+    <div id="user-label" class="badge">user</div>
+    <div id="comp-label" class="badge">comp</div>
+    <span id="user-score">0</span>:<span id="comp-score">0</span>
+  </div>
+
+  <div class="result">
+    <p>Paper covers rock. You win!</p>
+  </div>
+
+  <div class="choices">
+    <div id="rock" class="choice">
+      <img src="rock.png" alt="rock">
+    </div>
+    <div id="paper" class="choice">
+      <img src="legal-paper.png" alt="paper">
+    </div>
+    <div id="scissors" class="choice">
+      <img src="scissors.png" alt="scissors">
+    </div>
+  </div>
+
+  <p id="action-message">Make your move</p>
+
+<footer> 
+To make this game I followed a whatsdev tutorial on Youtube titled "How to Build a Rock Paper Scissors Game with Html, Css, and Javascript" <i class="far fa-smile-wink"></i>
+</footer>
+
+  <script src="RPS.js"></script>
+
+</body>
+</html>
